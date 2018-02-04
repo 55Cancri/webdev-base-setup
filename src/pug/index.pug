@@ -1,17 +1,6 @@
-doctype html
+extends layout
 
-html
-  head
-    title preconfigured
-    //- ignore these build/end
-    //- build:css /css/style.min.css
-    link(rel="stylesheet" type="text/css" href="/css/style.css")
-    //- endbuild
-
-  body
+block content
+  div(class="wrapper")
     h1 Base
     p All settings have been preconfigured and optimized to enable the most efficient workflow.
-
-    //- build:js /js/main.min.css
-    script(src="/js/main.js")
-    //- endbuild
